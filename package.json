@@ -1,0 +1,16 @@
+{
+  "name": "btcsuite.github.io",
+  "version": "1.0.0",
+  "description": "Btcsuite GitHub Pages site with search functionality",
+  "scripts": {
+    "build": "node build.js",
+    "clean": "rm -rf dist",
+    "prebuild": "npm run clean"
+  },
+  "keywords": [
+    "github-pages",
+    "btcsuite"
+  ],
+  "author": "",
+  "license": "ISC"
+}
